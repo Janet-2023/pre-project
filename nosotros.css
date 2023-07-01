@@ -84,16 +84,21 @@
     margin-inline-end: 0px
 }
 
-.content-header  .section-content-header{
+.active{
+    height: 460px;
+    display: block;
+}
+
+.section-content-header2{
+    display: none;
+}
+.section-content-header3 {
     display: none;
 }
 
-.content-header .active .content-header-div{
-    display: block;
-  
+.section-content-header4 {
+    display: none;
 }
 
-.active{
-    height: 460px;
-}
+
 

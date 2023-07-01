@@ -83,11 +83,11 @@
     margin-inline-start: 0px;
     margin-inline-end: 0px
 }
-
-.active{
-    height: 460px;
-    display: block;
+.section-content-header1{
+    display: none;
 }
+
+
 
 .section-content-header2{
     display: none;
@@ -102,3 +102,6 @@
 
 
 
+.active{
+    display: block;
+}

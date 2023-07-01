@@ -96,7 +96,6 @@ footer{
 
 .icons-bembos img{
     width: 200px;
-    border: 1px solid black;
 
 }
 
@@ -242,10 +241,7 @@ footer{
 }
    
 .fpoliticas{
-    padding: 5px;
-    border: 1px solid black;
     overflow: hidden;
-    height: 80px;
 }
 
 
@@ -253,6 +249,10 @@ footer{
 
 
 @media(max-width: 1024px) { 
+
+    .footer-home-container{
+        min-width: 375px;
+    }
 
     .footer-max-container{
         display: grid;
@@ -304,30 +304,25 @@ footer{
     .footer-politicas span{ 
         display: block;
         border-bottom: 1px solid #6f6c6c;
-
-    }
-    .active{
-        height: 260px;
     }
     .footer-politicas .politicas-ul {
         display: none;
-        
       }
-      .footer-politicas.clicked .politicas-ul {
+    
+      .footer-politicas .active .politicas-ul {
         display: block;
       }
-
-    
-  
-    
-}
-/* 
-@media (max-width: 375px){ 
-    .footer-politicas {
-        min-height: 275px;
-     
+      .active{
+        height: 260px;
     }
-   
+    }
+    @media (max-width: 375px) { 
 
-}  */
+        header{ 
+        min-width: 100hv;
+        }
+
+        
+    }
+    
 

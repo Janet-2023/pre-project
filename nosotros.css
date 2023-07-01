@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pagina-content{
+}
+
+.container-max {
+    max-width: 1134px;
+    width: 100%;
+    margin: auto;
+}
+.pagina{
+    box-shadow: 0.2px 1px 5px #d9d9d9;
+    background-color: white;
+    /* box-shadow: 0.2px 0.4px 1px 0.1px; */
+    display: block!important;
+    font-family: Kulturista,sans-serif;
+    border-radius: 15px;
+    margin: 20px 20px 50px;
+    padding-bottom: 20px;
+
+}
+.pagina-title{
+    background-color: #21388b;
+    border-radius: 9px 9px 0 0;
+    padding: 8px 15px;
+    text-align: center;
+    
+}
+
+.pagina-title h1{
+    font-family: din1451,sans-serif;
+    border-radius: 9px 9px 0 0;
+    font-size: 30px;
+    color: #ffb500;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+
+.pagina .container-content{
+    max-width: 814px;
+    margin: 40px auto auto;
+}
+
+
+.content-header a{
+    text-decoration: none;
+
+
+}
+
+.content-header h2{
+    display: block;
+    margin-bottom: 0.83em;
+    margin-top: 0.83em;
+    font-family: din1451,sans-serif;
+    font-size: 24px;
+    color: #21388b;
+    border-bottom: 1px solid #707070;
+
+}
+
+.banner-text{ 
+    margin: 0 0 10px;
+    text-align: justify;
+    color: #030819;
+
+}
+.banner img{
+    max-width: 100%;
+    height: auto;
+
+}
+
+.banner-text p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+
+.content-header  .section-content-header{
+    display: none;
+}
+
+.content-header .active .content-header-div{
+    display: block;
+  
+}
+
+.active{
+    height: 460px;
+}
+
